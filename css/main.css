@@ -18,14 +18,47 @@
     padding-bottom: 2rem;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    background-color: white;
 }
 
 .esquerda{
     background-color: var(--Cyan);
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding: 1.5rem;
 }
 
+.numero{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+}
+
+.desc{
+    color: white;
+    opacity: 0.5;
+}
+
+.esquerda div{
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 0.25rem;
+}
+
+.tex{
+    color: white;
+    line-height: 1.625rem;
+    margin-bottom: 1.625rem;
+}
+
+.esquerda button{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    color: white;
+    
+}
 .direita{
     background-color: var(--light-cyan);
     padding: 1.5rem;
